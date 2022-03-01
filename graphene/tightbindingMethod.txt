@@ -1,0 +1,11 @@
+Pure graphene electronic bandstructure using tight binding model
+1) we write the corresponding Schrodinger equation.
+2) ions are extremely far apart and assume with Vion=sum(r-R) for potential.
+3) we write the Hamiltonian in the quadratic form.
+4) define graphene : select primitive lattice vectors
+5) write tight binding Hamiltonian (defne the annihilation operators of an electron at the lowest orbital centered around atoms A and B)
+6) assume nearest neighbors (NNs) and diagonalize the Hamiltonian
+7) Plug non-vanishing anti-commutation relations
+8) use Bloch Hamiltonian (Hermitian matrix) & diagonalize it using unitary matrix
+9) calculate the E+ and E- for graphene (done!)
+10) final form of 1st NNs (Python 3. synthax): t*np.sqrt(3+2*np.cos(np.sqrt(3)*ky*a)+4*np.cos(np.sqrt(3)*ky*a*0.5)*np.cos(3*kx*a*0.5))
